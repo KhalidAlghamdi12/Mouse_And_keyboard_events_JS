@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Games List</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Games List</h1>
+      <form>
+        <label for="search">Search:</label>
+        <input type="text" id="search" placeholder="Enter game name...">
+      </form>
+    </header>
+    <nav>
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#" data-filter="all">All</a></li>
+        <li><a href="#" data-filter="horror">Horror</a></li>
+        <li><a href="#" data-filter="adventure">Adventure</a></li>
+        <li><a href="#" data-filter="shooter">Shooter</a></li>
+        <li><a href="#" data-filter="strategy">Strategy</a></li>
+      </ul>
+    </nav>
+    <main>
+      <ul id="game-list">
+        <li class="game" data-category="horror">The Evil Within</li>
+        <li class="game" data-category="horror">Resident Evil</li>
+        <li class="game" data-category="adventure">Spyro</li>
+        <li class="game" data-category="shooter">Call of Duty</li>
+        <li class="game" data-category="horror">Phismophobia</li>
+        <li class="game" data-category="adventure">Crash Twinsanity</li>
+        <li class="game" data-category="shooter">Battlefield 2042</li>
+        <li class="game" data-category="strategy">Risk</li>
+        <li class="game" data-category="strategy">Crusader Kings 3</li>
+        <li class="game" data-category="adventure">Cuphead</li>
+      </ul>
+    </main>
+    <script src="Script.js"></script>
+  </body>
+</html>
